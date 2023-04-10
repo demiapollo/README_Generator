@@ -8,16 +8,16 @@
 [Questions](#questions)
 
 ## Description: 
-q,
+d,
 ## Installation: 
-r,
+f,
 ## Usage: 
-t,
+g,
 ## License: 
-MIT,
+Apache,
 ## Contributing: 
-h,
+t,
 ## Tests: 
-n,
+,
 ## Questions: 
-b,
+y,
