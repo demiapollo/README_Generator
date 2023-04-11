@@ -14,16 +14,16 @@
 [Questions](#questions)
 
 ## Description: 
-,
+this project helps writing a reame file.,
 ## Installation: 
-gh,
+please refer to the installation guide.,
 ## Usage: 
-e,
+by answering a series of questions.,
 ## License: 
-Apache,
+MIT,
 ## Contributing: 
-t,
+apollo,
 ## Tests: 
-y,
+testing is not available.,
 ## Questions: 
-u,
+demiapollo,
