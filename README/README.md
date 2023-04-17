@@ -1,4 +1,4 @@
-# Title: aa ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
+# Title: My Project ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
   
   ## Table of Contents 
 
@@ -18,18 +18,18 @@
 
 
 ## Description: 
-f,
+This app helps with creating a README file.,
 ## Installation: 
-v,
+Please see the installation guide.,
 ## Usage: 
-b,
+By answering a series of questions to create a README file.,
 ## License: 
 MIT,
 ## Contributing: 
-e,
+apollo,
 ## Tests: 
-r,
+You can test it by trying the app.,
 ## Questions: 
-https://github.com/t
+https://github.com/demiapollo
 ## Email:
-f
+apod@gmail.com
