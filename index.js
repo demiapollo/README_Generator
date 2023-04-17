@@ -13,8 +13,13 @@ function generateREADME({
   contributing,
   tests,
   questions,
+  email,
+  title,
 }) {
-  return `## Table of Contents
+  return `# Title: ${title} ![License](https://img.shields.io/badge/License-${license}-blue.svg "License Badge")
+  
+  ## Table of Contents 
+
 [Description](#description:)
 
 [Installation](#installation)
@@ -27,7 +32,8 @@ function generateREADME({
 
 [Tests](#tests)
 
-[Questions](#questions)
+[Questions](#questions) 
+
 
 ## Description: 
 ${description},
@@ -42,7 +48,9 @@ ${contributing},
 ## Tests: 
 ${tests},
 ## Questions: 
-${questions},
+https://github.com/${questions}
+## Email:
+${email}
 `;
 }
 
@@ -96,15 +104,20 @@ inquirer
       message: "What is your GitHub username?",
       type: "input",
     },
+
+    {
+      name: "email",
+      message: "What is your email address?",
+      type: "input",
+    },
   ])
   .then((answers) => {
     console.log(answers);
 
     const generateREADMEContent = generateREADME(answers);
 
-    fs.writeFile("README.md", generateREADMEContent, (err) => {
+    fs.writeFile("./README/README.md", generateREADMEContent, (err) => {
       if (err) throw err;
       console.log("success");
     });
   });
-
